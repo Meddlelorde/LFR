@@ -11,7 +11,7 @@ state={
 			infrastructure = 3
 
 		}
-		add_claim_by = LIT
+		add_claim_by = DMZ
 		victory_points = {
 			19931 5 
 		}

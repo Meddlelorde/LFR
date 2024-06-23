@@ -6,18 +6,11 @@ state={
 		4085 4242 8766 15216 15243 15284 19741 
 	}
 	history={
-		owner = POR
-		add_core_of = POR
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-		}
-        victory_points = {
-            4085 2 #Santarém
-        }
-    }
-	manpower=400250
+		owner = DMZ
+		add_core_of = DMZ
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
-	state_category = city
 }

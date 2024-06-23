@@ -4,21 +4,16 @@ state={
 	name="STATE_2754"
 
 	history={
-		owner = LIE
-		add_core_of = LIE
-		add_core_of = THR
-		buildings = {
-			infrastructure = 2
-
-		}
-
+		owner = DMZ
+		add_core_of = DMZ
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 
 	provinces={
 		5252 8181 17061 
 	}
-	manpower=8047
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	
 }

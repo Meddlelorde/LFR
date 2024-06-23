@@ -16,7 +16,7 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = CLT
-		add_claim_by = LIT
+		add_claim_by = DMZ
 		add_core_of = DKJ
   	}
 	manpower=115500

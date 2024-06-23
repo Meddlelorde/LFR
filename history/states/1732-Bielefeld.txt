@@ -11,7 +11,7 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = PRE
-		add_core_of = WST
+		add_core_of = DMZ
 		owner = GER
         victory_points = {
             20697 20

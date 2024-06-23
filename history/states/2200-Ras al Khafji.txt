@@ -4,22 +4,16 @@ state={
 	name="STATE_2200"
 
 	history={
-		owner = SAU
-		add_core_of = SAU
-		add_core_of = NJD
-		buildings = {
-			infrastructure = 1
-		}
-		victory_points = { 19162 2 }
-		set_demilitarized_zone = yes
-
+		owner = DMZ
+		add_core_of = DMZ
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 
 	provinces={
 		18572 19162 
 	}
-	manpower=1000
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=0.000
+
 }

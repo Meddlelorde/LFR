@@ -4,21 +4,16 @@ state={
 	name="STATE_2201"
 
 	history={
-		owner = SAU
-		add_core_of = SAU
-		add_core_of = NJD
-		buildings = {
-			infrastructure = 1
-
-		}
-
+		owner = DMZ
+		add_core_of = DMZ
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 
 	provinces={
 		19164 
 	}
-	manpower=1000
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=0.000
+
 }

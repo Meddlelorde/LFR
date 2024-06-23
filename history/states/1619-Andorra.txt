@@ -2,8 +2,8 @@ state={
 	id=1619
 	name="STATE_1619"
 	history={
-		owner = ADR
-		add_core_of = ADR
+		owner = SPR
+		add_core_of = SPR
 		victory_points = {
 			8033 2 #Andorra la Vella
 		}

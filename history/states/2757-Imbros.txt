@@ -4,26 +4,16 @@ state={
 	name="STATE_2757"
 
 	history={
-		owner = LIE
-		add_core_of = LIE
-		add_core_of = THR
-		buildings = {
-			infrastructure = 2
-			20288 = {
-				naval_base = 1
-
-			}
-
-		}
-		set_demilitarized_zone = yes
-
+		owner = DMZ
+		add_core_of = DMZ
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 
 	provinces={
 		20288 
 	}
-	manpower=5404
-	buildings_max_level_factor=1.000
-	state_category=small_island
-	local_supplies=0.000
+	
 }

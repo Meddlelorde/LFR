@@ -6,22 +6,11 @@ state={
 		6912 15297 19738 
 	}
 	history={
-		owner = POR
-		add_core_of = POR
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 2
-			air_base = 5
-			19738 = { naval_base = 8 }
-		}
-        victory_points = {
-            19738 40 #Lisboa
-        }
-    }
-	manpower=997433
+		owner = DMZ
+		add_core_of = DMZ
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
-	state_category = metropolis
 }

@@ -6,8 +6,8 @@ state={
 		rubber=10
 	}
 	history = {
-		owner = MRT
-		add_core_of = MRT
+		owner = FRA
+		add_core_of = FRA
 	}
 
 	provinces={

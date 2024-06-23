@@ -2,17 +2,17 @@
 state={
 	id=1443
 	name="STATE_1443"
-
 	history={
-		
-
+		owner = DMZ
+		add_core_of = DMZ
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 
 	provinces={
 		6135 19323 20113 
 	}
-	manpower=119400
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	
 }

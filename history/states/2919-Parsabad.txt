@@ -6,15 +6,12 @@ state={
 		4790 6683 8407 15319 18717 
 	}
 	
-	history = {
-		owner = PER
-		add_core_of = PER
-		add_core_of = AZR
-		add_core_of = TBZ
-		buildings = { infrastructure = 1 }
+	history={
+		owner = DMZ
+		add_core_of = DMZ
 	}
-	state_category = rural
-	manpower=69225
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
 }

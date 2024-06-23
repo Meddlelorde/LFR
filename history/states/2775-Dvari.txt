@@ -4,22 +4,17 @@ state={
 	name="STATE_2775"
 
 	history={
-		owner = LAT
-		add_core_of = LAT
-		buildings = {
-			infrastructure = 2
-
-		}
-		add_core_of = CUR
-		add_core_of = AKS
+		owner = DMZ
+		add_core_of = DMZ
+		
 
 	}
 
 	provinces={
 		17663 18172 
 	}
-	manpower=849
+	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=enclave
+	state_category=wasteland
 	local_supplies=0.000
 }

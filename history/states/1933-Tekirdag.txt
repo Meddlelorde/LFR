@@ -4,31 +4,16 @@ state={
 	name="STATE_1933"
 
 	history={
-		owner = LIE
-		add_core_of = LIE
-		add_core_of = THR
-		buildings = {
-			infrastructure = 2
-			15016 = {
-				naval_base = 1
-
-			}
-
-		}
-		victory_points = {
-			15016 5 
-		}
-		victory_points = {
-			14996 10 
-		}
-
+		owner = DMZ
+		add_core_of = DMZ
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 
 	provinces={
 		300 14969 14996 15016 15020 17220 21466 21468 
 	}
-	manpower=121700
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	
 }

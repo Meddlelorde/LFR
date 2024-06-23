@@ -6,16 +6,11 @@ state={
 		3810 6812 10474 19996 
 	}
 	history={
-		owner = LIT
-		add_core_of = LIT
-		add_core_of = SMG
-		buildings = {
-			infrastructure = 3
-		}
-		victory_points = { 19996 2 }
-  	}
-	manpower=83600
+		owner = DMZ
+		add_core_of = DMZ
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
-	state_category = rural
 }

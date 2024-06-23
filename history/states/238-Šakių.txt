@@ -6,15 +6,11 @@ state={
 		1314 10807 19951 
 	}
 	history={
-		owner = LIT
-		add_core_of = LIT
-		add_core_of = SVK
-		buildings = {
-			infrastructure = 2
-		}
-  	}
-	manpower=76500
+		owner = DMZ
+		add_core_of = DMZ
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
-	state_category = rural
 }

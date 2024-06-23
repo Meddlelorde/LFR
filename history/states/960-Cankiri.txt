@@ -2,19 +2,16 @@
 state={
 	id=960
 	name="STATE_960"
-	history = {
-		owner = LIE
-		add_core_of = LIE
-		buildings = {
-			infrastructure = 2
-		}
-		victory_points = { 21550 2 }
+	history={
+		owner = DMZ
+		add_core_of = DMZ
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 	provinces={
 		1741 2137 2670 3741 21446 21550 21572 
 	}
-	manpower=38544
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	
 }

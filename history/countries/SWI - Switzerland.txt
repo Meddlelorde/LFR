@@ -46,7 +46,7 @@ recruit_character = SWI_johannes_baumann
 recruit_character = SWI_roger_masson
 recruit_character = SWI_giuseppe_motta
 recruit_character = SWI_ernst_wetter
-give_guarantee = LIE
+give_guarantee = DMZ
 
 if = { #####  Vanilla Characters 
 	limit = {

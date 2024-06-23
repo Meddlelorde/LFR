@@ -6,18 +6,11 @@ state={
 		359 8195 15089 19739 
 	}
 	history={
-		owner = POR
-		add_core_of = POR
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-		}
-        victory_points = {
-            19739 2 #Guarda
-        }
-    }
-	manpower=280900
+		owner = DMZ
+		add_core_of = DMZ
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
-	state_category = city
 }

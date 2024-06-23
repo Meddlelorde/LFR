@@ -3,9 +3,9 @@ state={
 	id=1123
 	name="STATE_1123"
 	history = {
-		owner = SYR
+		owner = FRA
 		add_core_of = SYR
-		add_core_of = LIE
+		add_core_of = DMZ
 		add_core_of = HAT
 		buildings = {
 			21315 = { naval_base = 1 }

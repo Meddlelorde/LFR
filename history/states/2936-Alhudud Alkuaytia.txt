@@ -5,17 +5,11 @@ state={
 		544 
 	}
 	history={
-		owner = SAU
-		add_core_of = SAU
-		add_core_of = NJD
-		buildings = {
-			infrastructure = 1
-
-		}
-
+		owner = DMZ
+		add_core_of = DMZ
 	}
-	manpower=9
-	state_category=wasteland
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
 }

@@ -6,12 +6,10 @@ state={
 	history={
 		owner = SOV
 		add_core_of = SOV
-		add_core_of = RUS
 		buildings = {
 			infrastructure = 3
 			19716 = { naval_base = 1 }
 		}
-		add_core_of = KAR
 		victory_points = { 19716 20 }
 		victory_points = { 17908 2 }
 	}

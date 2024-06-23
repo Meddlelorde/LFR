@@ -15,7 +15,7 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		add_claim_by = LIT
+		add_claim_by = DMZ
 		add_core_of = DKJ
         	victory_points = {
        	    	19941 10 #Mołodeczno

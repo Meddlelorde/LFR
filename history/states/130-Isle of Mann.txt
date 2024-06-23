@@ -6,8 +6,8 @@ state={
 		19397 
 	}
 	history={
-		owner = ISM
-		add_core_of = ISM
+		owner = ENG
+		add_core_of = ENG
 		buildings = {
 			infrastructure = 4
 			air_base = 2

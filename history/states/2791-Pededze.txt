@@ -5,17 +5,11 @@ state={
 		18294 
 	}
 	history={
-		owner = EST
-		add_core_of = EST
-		buildings = {
-			infrastructure = 2
-
-		}
-		add_core_of = LIV
-
+		owner = DMZ
+		add_core_of = DMZ
 	}
-	manpower=407
-	state_category=enclave
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
 }

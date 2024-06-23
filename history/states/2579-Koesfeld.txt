@@ -10,7 +10,7 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = PRE
-		add_core_of = WST
+		add_core_of = DMZ
 		owner = GER
 	}
 	manpower=45979

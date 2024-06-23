@@ -1,4 +1,3 @@
-
 state={
 	id=1246
 	name="STATE_1246"
@@ -6,15 +5,11 @@ state={
 		2134 5908 7075 10618 10637 10659 
 	}
 	history={
-		owner = LIT
-		add_core_of = LIT
-		add_core_of = SMG
-		buildings = {
-			infrastructure = 2
-		}
-  	}
-	manpower=129300
+		owner = DMZ
+		add_core_of = DMZ
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
-	state_category = rural
 }

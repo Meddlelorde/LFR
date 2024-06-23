@@ -4,10 +4,8 @@ state={
 			
 				
 	history = {
-		owner = TNG
-		add_core_of = TNG
-		add_core_of = RIF
-		add_core_of = MOR
+		owner = SPR
+		add_core_of = SPR
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
