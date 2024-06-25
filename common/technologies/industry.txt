@@ -29,10 +29,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = basic_dockyard_tools
-			research_cost_coeff = 1
-		}
+		
 		
 		path = {
 			leads_to_tech = concentrated_industry 
@@ -99,34 +96,6 @@ technologies = {
 		}
 	}
 
-	basic_dockyard_tools = {
-	
-		industrial_capacity_dockyard = 0.25
-		production_speed_dockyard_factor = 0.1
-		path = {
-			leads_to_tech = improved_dockyard_tools 
-			research_cost_coeff = 1
-		}
-		allow_branch = {
-			
-		}
-		
-		research_cost = 1
-		start_year = 1937
-		
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 2 }
-		}
-
-		ai_will_do = {
-			
-		}
-		
-		categories = {
-			ship_tools
-		}
-	}
 	
 	advanced_machine_tools = {
 	
@@ -161,34 +130,6 @@ technologies = {
 		}
 	}
 
-	improved_dockyard_tools = {
-	
-		industrial_capacity_dockyard = 0.2
-		production_speed_dockyard_factor = 0.075
-		path = {
-			leads_to_tech = advanced_dockyard_tools
-			research_cost_coeff = 1
-		}
-		allow_branch = {
-			
-		}
-		
-		research_cost = 1
-		start_year = 1939
-		
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 4 }
-		}
-
-		ai_will_do = {
-			
-		}
-		
-		categories = {
-			ship_tools
-		}
-	}
 	
 	assembly_line_production = {
 	
@@ -235,61 +176,7 @@ technologies = {
 		}
 	}
 
-	advanced_dockyard_tools = {
-	
-		industrial_capacity_dockyard = 0.15
-		production_speed_dockyard_factor = 0.05
-		path = {
-			leads_to_tech = modern_dockyard_tools
-			research_cost_coeff = 1
-		}
-		allow_branch = {
-			
-		}
-		
-		research_cost = 1
-		start_year = 1941
-		
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 6 }
-		}
 
-		ai_will_do = {
-			
-		}
-		
-		categories = {
-			ship_tools
-		}
-	}
-
-	modern_dockyard_tools = {
-	
-		industrial_capacity_dockyard = 0.1
-		production_speed_dockyard_factor = 0.025
-		
-		allow_branch = {
-			
-		}
-		
-		research_cost = 1
-		start_year = 1941
-		
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 8 }
-		}
-
-		ai_will_do = {
-			
-		}
-		
-		categories = {
-			ship_tools
-		}
-	}
-	
 	flexible_line = {
 
 		production_factory_max_efficiency_factor = 0.1
@@ -376,7 +263,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -2 y = 4 }
+			position = { x = 2 y = 4 }
 		}
 
 		ai_will_do = {
@@ -411,7 +298,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = -2 y = 6 }
+			position = { x = 2 y = 6 }
 		}
 		
 		ai_will_do = {

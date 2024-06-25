@@ -1,12 +1,12 @@
 focus_tree = {
-	id = denmark_focus
+	id = albanian_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = DEN
+			tag = ALB
 		}
 	}
 	

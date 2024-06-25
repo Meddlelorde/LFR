@@ -603,7 +603,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1943 }
+			position = { x = 0 y = @1943 }
 		}
 		
 		categories = {
@@ -643,7 +643,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1944 }
+			position = { x = 3 y = @1943 }
 		}
 		
 		categories = {

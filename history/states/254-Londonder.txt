@@ -6,15 +6,14 @@ state={
 		3156 5582 10733 10801 10811 19389 19390 
 	}
 	history={
-		owner = ENG
-		add_core_of = ENG
+		owner = IRE
+		add_core_of = IRE
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			19389 = { naval_base = 1 }
 		}
-		add_core_of = NIR
-		add_core_of = IRE
+		
 	
         victory_points = {
             19389 5

@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		artificial_intelligence = {
+			
+			allowed = {
+				original_tag = ALB
+				original_tag = AUS
+				original_tag = BEL
+				original_tag = CZE
+				original_tag = DEN
+				original_tag = FIN
+				original_tag = NOR
+				original_tag = POL
+				original_tag = SWE
+			}
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 999.9
+				industrial_capacity_factory = -999.9
+				political_power_factor = -999.9
+				ai_get_ally_desire_factor = -999.9
+				ai_badass_factor = -999.9
+				ai_limiter = -999.9
+			}
+		}
+	}
+}
