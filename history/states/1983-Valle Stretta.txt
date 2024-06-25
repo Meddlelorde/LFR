@@ -9,7 +9,6 @@ state={
 		add_core_of = OCC
 		buildings = {
 			infrastructure = 1
-			21658 = { bunker = 1 }
 		}
 	}
 	provinces={

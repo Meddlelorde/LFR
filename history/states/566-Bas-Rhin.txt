@@ -30,6 +30,9 @@ state={
 			5735 = {
 				bunker = 10
 			}
+			13206 = {
+				bunker = 10
+			}
 			
 		}
 		add_core_of = ALS
