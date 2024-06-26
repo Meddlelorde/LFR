@@ -231,7 +231,6 @@ FIN_purchase_soviet_equipment_for_cw = {
 			allow_without_tech = yes
 			model = "SOV_armored_car_0_entity"
 			icon = "GFX_SOV_armored_car1_medium"
-			#design_team = mio:my_mio_token # Optional. accepts mio:token, variable or keyword #TODO_Manu
 		}
 		add_equipment_to_stockpile = { 
 			type = gw_armored_car_equipment
@@ -416,7 +415,6 @@ FIN_purchase_german_equipment_for_cw = {
 			allow_without_tech = yes
 			model = "GER_armored_car_0_entity"
 			icon = "GFX_GER_armored_car1_medium"
-			#design_team = mio:my_mio_token # Optional. accepts mio:token, variable or keyword #TODO_Manu
 		}
 		add_equipment_to_stockpile = { 
 			type = gw_armored_car_equipment

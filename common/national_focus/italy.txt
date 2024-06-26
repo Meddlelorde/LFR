@@ -1778,12 +1778,7 @@ focus_tree = {
 					}
 					custom_effect_tooltip = available_mio_tt
 					show_mio_tooltip = ITA_officine_meccaniche_organization
-					mio:ITA_officine_meccaniche_organization = {
-						complete_mio_trait = ITA_mio_trait_new_ricostruzione_iundustriale_motorized
-						complete_mio_trait = ITA_mio_trait_new_ricostruzione_iundustriale_mechanized
-						complete_mio_trait = ITA_mio_trait_new_ricostruzione_iundustriale_train
-						add_mio_size = 3
-					}
+					
 				}
 				else = {
 					custom_effect_tooltip = available_designer
@@ -17455,12 +17450,7 @@ focus_tree = {
 					}
 					custom_effect_tooltip = available_mio_tt
 					show_mio_tooltip = ITA_officine_meccaniche_organization
-					mio:ITA_officine_meccaniche_organization = {
-						complete_mio_trait = ITA_mio_trait_new_ricostruzione_iundustriale_motorized
-						complete_mio_trait = ITA_mio_trait_new_ricostruzione_iundustriale_mechanized
-						complete_mio_trait = ITA_mio_trait_new_ricostruzione_iundustriale_train
-						add_mio_size = 3
-					}
+					
 				}
 				else = {
 					custom_effect_tooltip = available_designer

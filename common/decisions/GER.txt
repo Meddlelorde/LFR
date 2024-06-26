@@ -459,20 +459,7 @@ GER_case_anton_category = {
 		}
 		complete_effect = {
 			custom_effect_tooltip = GER_case_anton_tt
-			hidden_effect = {
-				random_other_country = {
-					limit = {
-						original_tag = FRA
-						has_government = fascism
-						OR = {
-							is_subject_of = GER
-							has_focus_tree = vichy_french_focus
-						}
-					}
-					set_country_flag = case_anton
-					activate_mission = FRA_case_anton_mission
-				}
-			}
+			
 		}
 	}
 }

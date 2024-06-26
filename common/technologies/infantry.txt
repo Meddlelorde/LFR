@@ -1285,9 +1285,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry
-			research_cost_coeff = 1
+		sub_technologies = {
+			amphibious_mechanized_infantry
 		}
 
 		research_cost = 2
@@ -1330,9 +1329,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 
-		enable_subunits = {
-			amphibious_mechanized
-		}
+		
 
 		path = {
 			leads_to_tech = amphibious_mechanized_infantry_2
@@ -1400,6 +1397,9 @@ technologies = {
 		path = {
 			leads_to_tech = mechanised_infantry3
 			research_cost_coeff = 1
+		}
+		sub_technologies = {
+			amphibious_mechanized_infantry_2
 		}
 
 		research_cost = 2

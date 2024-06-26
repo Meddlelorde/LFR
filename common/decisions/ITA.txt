@@ -923,7 +923,6 @@ ITA_missiolinis = {
 				tooltip = ITA_missiolini_bolster_political_cabinet_trigger_tt
 				amount_taken_ideas = {
 					amount > 2
-					slots = { political_advisor }
 				}
 				OR = {
 					has_idea = ITA_gian_galeazzo_ciano
@@ -981,7 +980,6 @@ ITA_missiolinis = {
 				amount_taken_ideas = {
 					amount > 2
 					#category = { military_staff }
-					slots = { high_command }
 				}
 			}
 		}
