@@ -3,7 +3,7 @@ technologies = {
 	early_fighter = {
         
 		enable_equipments = {
-			fighter_equipment_0
+			cv_fighter_equipment_0
 		}
 	
 		path = {
@@ -30,17 +30,14 @@ technologies = {
 			light_air
 			light_fighter
 			air_equipment
+			naval_air
 			mio_cat_all_light_fighter_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
 		
-		sub_technologies = {
-			cv_early_fighter
-		}
 		
 		ai_will_do = {
 			factor = 5
-			
 			modifier = {
 				factor = 2
 				is_major = yes
@@ -50,26 +47,7 @@ technologies = {
 				num_of_military_factories < 7
 				factor = 0.1
 			}
-		}
-	}
-    
-	cv_early_fighter = {
-
-		enable_equipments = {
-			cv_fighter_equipment_0
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1933
-		
-		categories = {
-			naval_air
-			air_equipment
-			mio_cat_all_light_fighter_and_modules
-		}
-		
-		ai_will_do = {
-			factor = 1.5
+			
 			modifier = {
 				factor = 0
 				OR = {
@@ -87,11 +65,13 @@ technologies = {
 			}
 		}
 	}
+    
+
 	
 	fighter1 = {
 
 		enable_equipments = {
-			fighter_equipment_1
+			cv_fighter_equipment_1
 		}
 	
 		path = {
@@ -108,15 +88,12 @@ technologies = {
 		}
 		
 		categories = {
+			naval_air
 			light_air
 			light_fighter
 			air_equipment
 			mio_cat_all_light_fighter_and_modules
 			mio_cat_all_light_aircraft_and_modules
-		}
-		
-		sub_technologies = {
-			cv_fighter1
 		}
 		
 		ai_will_do = {
@@ -146,27 +123,6 @@ technologies = {
 				factor = 5
 				date > "1940.1.1"
 			}
-		}
-	}
-	
-	cv_fighter1 = {
-
-		enable_equipments = {
-			cv_fighter_equipment_1
-		}
-	
-		research_cost = 1 #Carrier Variant
-		start_year = 1936
-		
-		categories = {
-			naval_air
-			air_equipment
-			mio_cat_all_light_fighter_and_modules
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
 			modifier = {
 				factor = 2
 				tag = USA
@@ -196,10 +152,12 @@ technologies = {
 		}
 	}
 	
+	
+	
 	fighter2 = {
 
 		enable_equipments = {
-			fighter_equipment_2
+			cv_fighter_equipment_2
 		}
 	
 		path = {
@@ -219,6 +177,7 @@ technologies = {
 		}
 		
 		categories = {
+			naval_air
 			light_air
 			light_fighter
 			air_equipment
@@ -226,9 +185,6 @@ technologies = {
 			mio_cat_all_light_aircraft_and_modules
 		}
 		
-		sub_technologies = {
-			cv_fighter2
-		}
 		
 		ai_will_do = {
 			factor = 2
@@ -263,26 +219,6 @@ technologies = {
 				factor = 5
 				date > "1944.1.1"
 			}
-		}
-	}
-	
-	cv_fighter2 = {
-
-		enable_equipments = {
-			cv_fighter_equipment_2
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1940
-		
-		categories = {
-			naval_air
-			air_equipment
-			mio_cat_all_light_fighter_and_modules
-		}
-		
-		ai_will_do = {
-			factor = 1
 			
 			modifier = {
 				factor = 2
@@ -324,10 +260,12 @@ technologies = {
 		}
 	}
 	
+
+	
 	fighter3 = {
 
 		enable_equipments = {
-			fighter_equipment_3
+			cv_fighter_equipment_3
 		}
 		
 		path = {
@@ -344,17 +282,14 @@ technologies = {
 		}
 		
 		categories = {
+			naval_air
 			light_air
 			light_fighter
 			air_equipment
 			mio_cat_all_light_fighter_and_modules
 			mio_cat_all_light_aircraft_and_modules
 		}
-		
-		sub_technologies = {
-			cv_fighter3
-		}
-		
+	
 		ai_will_do = {
 			factor = 2
 			
@@ -382,27 +317,6 @@ technologies = {
 				factor = 5
 				date > "1948.1.1"
 			}
-		}
-	}
-	
-	cv_fighter3 = {
-
-		enable_equipments = {
-			cv_fighter_equipment_3
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1944
-		
-		categories = {
-			naval_air
-			air_equipment
-			mio_cat_all_light_fighter_and_modules
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
 			modifier = {
 				factor = 2
 				tag = USA
@@ -426,6 +340,8 @@ technologies = {
 			}
 		}
 	}
+	
+	
 	
 	jet_fighter1 = {
 
@@ -503,7 +419,7 @@ technologies = {
 	CAS1 = {
 
 		enable_equipments = {
-			CAS_equipment_1
+			cv_CAS_equipment_1
 		}
 	
 		path = {
@@ -519,11 +435,10 @@ technologies = {
 			position = { x = -4 y = 4 }
 		}
 		
-		sub_technologies = {
-			cv_CAS1
-		}
+		
 		
 		categories = {
+			naval_air
 			light_air
 			cas_bomber
 			air_equipment
@@ -548,28 +463,6 @@ technologies = {
 				tag = SOV
 				factor = 2
 			}
-
-		}
-	}
-	
-	cv_CAS1 = {
-
-		enable_equipments = {
-			cv_CAS_equipment_1
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1936
-		
-		categories = {
-			naval_air
-			air_equipment
-			cas_bomber
-			mio_cat_all_cas_and_modules
-		}
-		
-		ai_will_do = {
-			factor = 1
 			modifier = {
 				factor = 0
 				OR = {
@@ -599,13 +492,16 @@ technologies = {
 				factor = 0
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
+
 		}
 	}
+	
+	
 	
 	CAS2 = {
 
 		enable_equipments = {
-			CAS_equipment_2
+			cv_CAS_equipment_2
 		}
 	
 		path = {
@@ -621,11 +517,8 @@ technologies = {
 			position = { x = -4 y = 6 }
 		}
 		
-		sub_technologies = {
-			cv_CAS2
-		}
-		
 		categories = {
+			naval_air
 			light_air
 			cas_bomber
 			air_equipment
@@ -660,27 +553,6 @@ technologies = {
 				factor = 3
 				tag = SOV
 			}
-		}
-	}
-	
-	cv_CAS2 = {
-
-		enable_equipments = {
-			cv_CAS_equipment_2
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1940
-		
-		categories = {
-			naval_air
-			air_equipment
-			cas_bomber
-			mio_cat_all_cas_and_modules
-		}
-		
-		ai_will_do = {
-			factor = 1
 			modifier = {
 				factor = 0
 				OR = {
@@ -713,10 +585,12 @@ technologies = {
 		}
 	}
 	
+	
+	
 	CAS3 = {
 
 		enable_equipments = {
-			CAS_equipment_3
+			cv_CAS_equipment_3
 		}
 		
 		path = {
@@ -736,6 +610,7 @@ technologies = {
 		}
 		
 		categories = {
+			naval_air
 			light_air
 			cas_bomber
 			air_equipment
@@ -768,27 +643,6 @@ technologies = {
 				factor = 2
 				tag = SOV
 			}
-		}
-	}
-	
-	cv_CAS3 = {
-
-		enable_equipments = {
-			cv_CAS_equipment_3
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1944
-		
-		categories = {
-			naval_air
-			air_equipment
-			cas_bomber
-			mio_cat_all_cas_and_modules
-		}
-		
-		ai_will_do = {
-			factor = 1
 			modifier = {
 				factor = 2
 				OR = {
@@ -813,11 +667,13 @@ technologies = {
 			}
 		}
 	}
+	
+
 
 	naval_bomber1 = {
 
 		enable_equipments = {
-			nav_bomber_equipment_1
+			cv_nav_bomber_equipment_1
 		}
 	
 		path = {
@@ -863,27 +719,6 @@ technologies = {
 				factor = 5
 				tag = JAP
 			}
-		}
-	}
-	
-	cv_naval_bomber1 = {
-
-		enable_equipments = {
-			cv_nav_bomber_equipment_1
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1936
-		
-		categories = {
-			naval_air
-			air_equipment
-			mio_cat_all_naval_bomber_and_modules
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
 			modifier = {
 				factor = 0
 				OR = {
@@ -916,10 +751,12 @@ technologies = {
 		}
 	}
 	
+	
+	
 	naval_bomber2 = {
 
 		enable_equipments = {
-			nav_bomber_equipment_2
+			cv_nav_bomber_equipment_2
 		}
 	
 		path = {
@@ -972,34 +809,6 @@ technologies = {
 				factor = 5
 				tag = JAP
 			}
-		}
-	}
-	
-	cv_naval_bomber2 = {
-
-		enable_equipments = {
-			cv_nav_bomber_equipment_2
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1940
-		
-		categories = {
-			naval_air
-			air_equipment
-			mio_cat_all_naval_bomber_and_modules
-		}
-		
-		ai_will_do = {
-			factor = 5 #if you have carriers, you definitely want these!
-			
-		modifier = {
-				factor = 0
-				OR = {
-					has_tech = naval_bomber3
-					is_researching_technology = naval_bomber3
-				}
-			}
 			modifier = {
 				factor = 2.5
 				OR = {
@@ -1025,11 +834,12 @@ technologies = {
 			}
 		}
 	}
+
 	
 	naval_bomber3 = {
 
 		enable_equipments = {
-			nav_bomber_equipment_3
+			cv_nav_bomber_equipment_3
 		}
 		
 		path = {
@@ -1044,9 +854,7 @@ technologies = {
 			position = { x = 4 y = 8 }
 		}
 		
-		sub_technologies = {
-			cv_naval_bomber3
-		}
+	
 		
 		categories = {
 			naval_air
@@ -1082,26 +890,6 @@ technologies = {
 				factor = 5
 				tag = JAP
 			}
-		}
-	}
-	
-	cv_naval_bomber3 = {
-
-		enable_equipments = {
-			cv_nav_bomber_equipment_3
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1944
-		
-		categories = {
-			naval_air
-			air_equipment
-			mio_cat_all_naval_bomber_and_modules
-		}
-		
-		ai_will_do = {
-			factor = 1
 			modifier = {
 				factor = 2.5
 				OR = {
@@ -1126,6 +914,8 @@ technologies = {
 			}
 		}
 	}
+	
+	
 	
 	early_bomber = {
 
