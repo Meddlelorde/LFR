@@ -1392,7 +1392,6 @@ equipment_modules = {
 	}
 
 	tank_high_velocity_cannon = {
-		avai
 		abbreviation = "hv1"
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret

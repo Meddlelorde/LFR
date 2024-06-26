@@ -40,7 +40,6 @@ on_actions = {
 					limit = {
 						OR = {
 							### Original Members
-							#tag = ARG
 							tag = BEL
 							#tag = BOL
 							tag = ENG

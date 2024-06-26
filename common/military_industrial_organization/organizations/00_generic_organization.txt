@@ -71,6 +71,7 @@ generic_tank_organization = {
 mass_production_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_1
 	allowed = {
+		always = no
 	}
 	equipment_type = { mio_cat_eq_all_light_tank mio_cat_eq_all_medium_tank  mio_cat_eq_all_heavy_tank }
 	research_categories = { mio_cat_tech_all_armor_and_modules }
@@ -87,6 +88,7 @@ mass_production_tank_organization = {
 blitzkrieg_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_1
 	allowed = {
+		NOT = { OR = { tag = AUS tag = CZE tag = NOR tag = DEN tag = DMZ tag = BEL tag = HOL tag = BEL tag = ALB tag = FIN tag = POL tag = SWE } }
 	}
 	equipment_type = { mio_cat_eq_all_light_tank mio_cat_eq_all_medium_tank  mio_cat_eq_all_heavy_tank }
 	research_categories = { mio_cat_tech_all_armor_and_modules }
@@ -105,6 +107,7 @@ blitzkrieg_tank_organization = {
 main_battle_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_1
 	allowed = {
+		NOT = { OR = { tag = AUS tag = CZE tag = NOR tag = DEN tag = DMZ tag = BEL tag = HOL tag = BEL tag = ALB tag = FIN tag = POL tag = SWE } }
 	}
 	equipment_type = { mio_cat_eq_all_light_tank mio_cat_eq_all_medium_tank  mio_cat_eq_all_heavy_tank }
 	research_categories = { mio_cat_tech_all_armor_and_modules }
@@ -122,6 +125,7 @@ main_battle_tank_organization = {
 breakthrough_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_1
 	allowed = {
+		NOT = { OR = { tag = AUS tag = CZE tag = NOR tag = DEN tag = DMZ tag = BEL tag = HOL tag = BEL tag = ALB tag = FIN tag = POL tag = SWE } }
 	}
 	equipment_type = { mio_cat_eq_all_light_tank mio_cat_eq_all_medium_tank  mio_cat_eq_all_heavy_tank }
 	research_categories = { mio_cat_tech_all_armor_and_modules }
@@ -141,6 +145,7 @@ breakthrough_tank_organization = {
 fast_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_1
 	allowed = {
+		NOT = { OR = { tag = AUS tag = CZE tag = NOR tag = DEN tag = DMZ tag = BEL tag = HOL tag = BEL tag = ALB tag = FIN tag = POL tag = SWE } }
 	}
 	equipment_type = { mio_cat_eq_all_light_tank mio_cat_eq_all_medium_tank  mio_cat_eq_all_heavy_tank }
 	research_categories = { mio_cat_tech_all_armor_and_modules }
@@ -160,6 +165,7 @@ fast_tank_organization = {
 soft_attack_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_1
 	allowed = {
+		NOT = { OR = { tag = AUS tag = CZE tag = NOR tag = DEN tag = DMZ tag = BEL tag = HOL tag = BEL tag = ALB tag = FIN tag = POL tag = SWE } }
 	}
 	equipment_type = { mio_cat_eq_all_light_tank mio_cat_eq_all_medium_tank  mio_cat_eq_all_heavy_tank }
 	research_categories = { mio_cat_tech_all_armor_and_modules }
@@ -195,7 +201,7 @@ generic_infantry_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		always = no
 	}
 
 	equipment_type = { armor }

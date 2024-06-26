@@ -3204,37 +3204,7 @@ POL_promote_falangism_decisions = {
 
 		available = {
 		}
-		target_trigger = {
-			FROM = {
-				owner = {
-					OR = {
-						AND = {
-							OR = {
-								original_tag = HOL
-								original_tag = BEL
-								original_tag = LUX
-							}
-							ROOT = { NOT = { has_completed_focus = POL_invite_the_lowlands } }
-						}
-						AND = {
-							is_latin_american_country = yes
-							NOT = {
-								original_tag = MEX
-								original_tag = BRA
-								original_tag = ARG
-								original_tag = COL
-								original_tag = VEN
-								original_tag = PRU
-							}
-							ROOT = { NOT = { has_completed_focus = POL_support_falangists_in_the_americas } }
-						}
-					}
-					NOT = { has_government = fascism }
-					NOT = { has_country_flag = banned_fascism_flag }
-				}
-				is_capital = yes
-			}
-		}
+		
 		visible = {
 		}
 
@@ -3272,20 +3242,7 @@ POL_promote_falangism_decisions = {
 		}
 		target_trigger = {
 			FROM = {
-				owner = {
-					OR = {
-						original_tag = MEX
-						original_tag = BRA
-						original_tag = ARG
-						original_tag = COL
-						original_tag = VEN
-						original_tag = PRU
-					}
-					ROOT = { NOT = { has_completed_focus = POL_support_falangists_in_the_americas } }
-					NOT = { has_government = fascism }
-					NOT = { has_country_flag = banned_fascism_flag }
-				}
-				is_capital = yes
+				
 			}
 		}
 		visible = {
