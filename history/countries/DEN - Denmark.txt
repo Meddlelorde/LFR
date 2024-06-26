@@ -31,8 +31,6 @@ set_popularities = {
 
 #### COUNTRY LEADERS ####
 recruit_character = DEN_thorvald_stauning
-recruit_character = DEN_knud_bach
-recruit_character = DEN_knud_bach_2
-recruit_character = DEN_knud_bach_3
+
 
 
