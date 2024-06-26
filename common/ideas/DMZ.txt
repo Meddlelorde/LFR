@@ -16,12 +16,11 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 999.9
-				industrial_capacity_factory = -999.9
-				political_power_factor = -999.9
-				ai_get_ally_desire_factor = -999.9
-				ai_badass_factor = -999.9
-				ai_limiter = -999.9
+				consumer_goods_factor = 999.99
+				industrial_capacity_factory = -999.99
+				political_power_factor = -999.99
+				ai_get_ally_desire_factor = -999.99
+				ai_badass_factor = -999.99
 			}
 		}
 	}
