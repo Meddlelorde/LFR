@@ -605,9 +605,6 @@ technologies = {
 			position = { x = -4 y = 8 }
 		}
 		
-		sub_technologies = {
-			cv_CAS3
-		}
 		
 		categories = {
 			naval_air
@@ -686,10 +683,6 @@ technologies = {
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 4 y = 4 }
-		}
-		
-		sub_technologies = {
-			cv_naval_bomber1
 		}
 		
 		categories = {
@@ -771,9 +764,7 @@ technologies = {
 			position = { x = 4 y = 6 }
 		}
 		
-		sub_technologies = {
-			cv_naval_bomber2
-		}
+		
 		
 		categories = {
 			naval_air
